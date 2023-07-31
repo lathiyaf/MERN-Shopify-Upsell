@@ -1,0 +1,31 @@
+let pipeline=[{
+    $unwind: "$left_section_data"
+    },
+    {
+        $lookup:{
+            from: "sections",
+            let: {
+        sectionID: "$left_section_data.id" ,
+    },
+     pipeline: [
+        { $match: { $expr: { $eq: ["$row_section_id", "$$sectionID" ] } } },
+      ],
+         as: "sectionData"
+            }
+        },
+        {$unwind:"$sectionData"},
+        {
+    $group: {
+      _id: "$_id",
+        section_data: {$push: "$sectionData"}
+    }
+  }
+    ]
+
+    "<div class=\"content-box section-element pl-15 mt-3\" id=\"8910b760-28c5-4ae8-a4f4-bc23521d576b\"><div class=\"section-content\"><div class=\"content-box-row\"><div><p style=\"text-align:center;\"><span style=\"font-size: 16px;\"><strong>Let us know your birthday. a special gift will be heading your way!</strong></span></p></div><div class=\"mt-2\"><div class=\"react-datepicker-wrapper\"><div class=\"react-datepicker__input-container\"><span role=\"alert\" aria-live=\"polite\" class=\"react-datepicker__aria-live\"></span><div class=\"calendar_field\"><div class=\"calendar_field_wrap\"><div class=\"input_group calendar_input_wrap\"><input placeholder=\"Select your birthday\" class=\"calendar_input\" autocomplete=\"off\" type=\"text\" readonly=\"\" name=\"birthday\" id=\"birthday\" value=\"\"><span class=\"input_group_addon\"><i class=\"fa fa-calendar\" aria-hidden=\"true\"></i></span></div><a class=\"btn mx-3\" id=\"bd_btn-8910b760-28c5-4ae8-a4f4-bc23521d576b\" style=\"background-color: rgb(25, 123, 189); color: rgb(255, 255, 255); height: 50px;\">Submit</a></div></div></div></div></div></div></div></div>
+
+The outerHTML property of a HTML Node returns String. The events will be attached to the HTML Node, but when you convert them to Stings all the events linked to them are lost. So, when you use document.write with btn.outerHTML, it copies the button as a text and all events attached are lost.
+
+But when you use appendChild with btn object, it appends the HTMLButtonElement object with the events attached to it.
+
+So, if you have to use outerHTML, attach the events once you write it to the document.

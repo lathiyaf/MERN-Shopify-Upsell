@@ -1,0 +1,44 @@
+
+@mixin width($width, $height){
+    width: $width;
+    height: $height;
+}
+
+@mixin flex($flex-start, $justify-content){
+    display: flex;
+    align-items: $flex-start;
+    justify-content: $justify-content;
+}
+
+@mixin font($fontsize, $fontweight, $lineheight, $color) {
+    font-family: 'SF Pro Text', sans-serif;
+    font-size: $fontsize;
+    font-weight: $fontweight;
+    line-height: $lineheight;
+    color: $color;
+}
+
+@mixin backbgCard{
+    padding: 16px;
+    border-radius: 12px;
+    background:$white;  
+    border: 1px solid #E1E6EF;
+}
+
+@mixin customscroll{
+    &::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+        background:#F8F9FC;
+    }
+    
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        background: #B6BCC9;
+        border-radius: 20px;
+    }
+}

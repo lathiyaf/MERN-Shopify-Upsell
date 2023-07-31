@@ -1,0 +1,409 @@
+{
+  "status": "success",
+  "message": "product get successfully",
+  "data": {
+    "id": 189965,
+    "offer_name": "copy_1st Upsell - Same product - 20% OFF",
+    "store_client_id": 225241,
+    "offer_status": "1",
+    "widget_title": "<p style=\"text-align: center;\"><span style=\"font-size: 18px;\">It's not too late to get more! Grab another for <strong>20</strong></span><strong><span style=\"font-size: 18px;\">% OFF!</span></strong></p>",
+    "widget_title_place": "0",
+    "widget_title_style": "{\"widget_title_font_size\":\"xlarge\",\"widget_title_align\":\"center\"}",
+    "widget_title_bg_color": "transparent",
+    "created_from": "1",
+    "product_type": "0",
+    "product_id": 8003070853337,
+    "loader_text": "We are looking for the best offers for you...",
+    "alternate_option": "1",
+    "alternate_product_id": 8003070427353,
+    "exclude_product_by_tags": "dGVzdA==",
+    "is_show_exclusion_tags": "1",
+    "is_show_order_product": "0",
+    "layout": "0",
+    "collection_id": null,
+    "product_title": "<p>test product</p>",
+    "product_title_style": "{\"title_font_size\":\"base\",\"title_align\":\"left\"}",
+    "product_title_place": "1",
+    "product_description": "",
+    "product_description_style": "{\"desc_font_size\":\"base\",\"desc_align\":\"left\"}",
+    "secondary_options": "3",
+    "slider_style": "0",
+    "arrow_color": "0",
+    "slide_to_display": 3,
+    "is_show_qty": "1",
+    "is_show_variant": "1",
+    "is_show_vendor": "0",
+    "is_show_prod_desc": "0",
+    "is_allow_discount": "1",
+    "discount": "1",
+    "is_shipping": "1",
+    "shipping_rate": 0,
+    "fallback_shipping_rate": 0,
+    "discount_type": "2",
+    "discount_value": 20,
+    "discount_over_order_value": 0,
+    "discount_code": "",
+    "discount_name": "thanks",
+    "is_free_shipping": "0",
+    "free_shipping_label": "Free",
+    "is_show_product_price": "1",
+    "price_font_size": "small",
+    "is_show_compare_price": "1",
+    "compare_at_price_font_size": "small",
+    "is_show_discounted_price": "1",
+    "discounted_font_size": "small",
+    "price_color_priority": "1",
+    "button_text": "Buy Now",
+    "quantity_text": "Quantity",
+    "soldout_text": "Sold out",
+    "sub_total_text": "Subtotal",
+    "shipping_text": "Shipping",
+    "taxes_text": "Taxes",
+    "tax_line": "",
+    "total_text": "Total",
+    "discount_text": "Discount",
+    "default_variants": null,
+    "default_variant_text": null,
+    "is_show_star_review": 0,
+    "star_color": "#000000",
+    "main_product_image": "1",
+    "main_image": "",
+    "is_timer_added": "1",
+    "timer_style": "0",
+    "display_timer": "2",
+    "timer_duration": "{\"days\":0,\"hours\":0,\"minute\":5,\"seconds\":0}",
+    "timer_text": "{\"days_text\":\"\",\"hours_text\":\"\",\"minute_text\":\"\",\"seconds_text\":\"\"}",
+    "timer_offer_text": "Offer expires in:",
+    "timer_position": "0",
+    "timer_button_color": "#E1F3F3",
+    "timer_text_added": "0",
+    "timer_text_position": "1",
+    "timer_button_text_color": "#000000",
+    "timer_stroke_color": "#6bc0c0",
+    "timer_state_color": "#6bc0c0",
+    "timer_border_color": "#6bc0c0",
+    "is_changed_duration": "0",
+    "expiry_settings": "2",
+    "timer_expire_message": "<p style=\"text-align: center;\"><span style=\"font-size: 24px;\">Offer expired</span></p>",
+    "timer_expire_message_style": "{\"expiry_msg_font_size\":\"base\",\"expiry_msg_align\":\"center\"}",
+    "accept_btn_text": "Upgrade my order",
+    "declinebtn_text": "Decline offer",
+    "accept_btn_type": "0",
+    "accept_btn_txt_position": "center",
+    "decline_btn_type": "1",
+    "decline_btn_txt_position": "trailing",
+    "is_hide_summary": "0",
+    "created": "2022-11-18T03:40:37.000Z",
+    "is_original": "1",
+    "timer_color": "critical",
+    "updated": "2022-11-18T03:40:37.000Z",
+    "funnel_name": "Test Funnel",
+    "trigger_text": "[{&quot;categores&quot;:&quot;all orders&quot;,&quot;back_condition_values&quot;:&quot;0&quot;}]",
+    "funnel_id": 224666,
+    "table_selector": 159,
+    "order_id": 5038096416985,
+    "order_name": "#1148",
+    "payment_gateway_names": [
+      "bogus"
+    ],
+    "order_created_at": "2022-12-26T00:31:48-06:00",
+    "direction": "0",
+    "section_id": 24,
+    "cust_id": 6466315583705,
+    "offer_id": 189965,
+    "funnel_offer_id": 457287,
+    "money_format": "Rs. {{amount}}",
+    "app_language": "en",
+    "theme_language": "en",
+    "review_app": "0",
+    "location_no": "1",
+    "cust_f_name": "test",
+    "cust_l_name": "test",
+    "including_amount_taxes": "Including {{ amount }} in taxes",
+    "weight_unit": "kg",
+    "taxes_included": false,
+    "auto_configure_tax_inclusivity": false,
+    "tax_shipping": false,
+    "county_taxes": true,
+    "old_timer_duration": 300,
+    "timer_seconds": 300,
+    "reviews": 0,
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI2NmQ5OTU2ZWRmODA3YjY5N2U3ZjUzOWU1ZTliYmFmMyIsImp0aSI6ImVmMjUwNTUxLTVmYmItNGM2OC1iYzY5LWVjZWY4NTdkMjU4OCIsImNoYW5nZXMiOlt7InR5cGUiOiJhZGRfdmFyaWFudCIsInF1YW50aXR5IjoxLCJ2YXJpYW50X2lkIjo0MzU2NTk0NTI5MDk2OSwiZGlzY291bnQiOnsidGl0bGUiOiJUb3RhbCBkaXNjb3VudCBvbiBwcm9kdWN0IiwidmFsdWUiOjc5Ljk5OCwidmFsdWVUeXBlIjoiZml4ZWRfYW1vdW50In19XSwiaWF0IjoxNjcyMTIyNzE0NTgzLCJzdWIiOiIxNWQyZDUwZmY2ZjI4MTQzYWRjZDYzNzExNWJiNjYyNyJ9.MpOo0FnqliGep7Y4RX-TKDj2IxRz3_f5Tzlj3LuR13c",
+    "sale_channel": "web",
+    "tags": "127833, Country_United States, Producer_Verite Wines, Region_California, Subregion_Sonoma County, Varietal_Merlot, Vintage_2002",
+    "title": "Verite La Muse",
+    "vendor": "cellar",
+    "images": {
+      "custome_image": "",
+      "variant_wise_image": {
+        
+      },
+      "product_main_image": "https://cdn.shopify.com/s/files/1/0628/3880/0601/products/noimage_d685cf11-6200-496a-a5fe-3cda9841c3db.jpg?v=1668501635",
+      "no_image": "https://cdn.stilyoapps.com/v1/assets/img/no-image.gif",
+      "all_images": [
+        
+      ]
+    },
+    "variants": [
+      {
+        "id": 43565945290969,
+        "product_id": 8003070853337,
+        "title": "750ml",
+        "price": "399.99",
+        "sku": "",
+        "position": 1,
+        "inventory_policy": "deny",
+        "compare_at_price": "479.99",
+        "fulfillment_service": "manual",
+        "inventory_management": null,
+        "option1": "750ml",
+        "option2": null,
+        "option3": null,
+        "created_at": "2022-11-15T02:40:35-06:00",
+        "updated_at": "2022-12-23T00:59:02-06:00",
+        "taxable": true,
+        "barcode": null,
+        "grams": 1588,
+        "image_id": null,
+        "weight": 3.5,
+        "weight_unit": "lb",
+        "inventory_item_id": 45661882843353,
+        "inventory_quantity": -20,
+        "old_inventory_quantity": -20,
+        "requires_shipping": true,
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/43565945290969",
+        "selectedOptions": [
+          {
+            "name": "Size",
+            "value": "750ml"
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": 10140753101017,
+        "product_id": 8003070853337,
+        "name": "Size",
+        "position": 1,
+        "values": [
+          "750ml"
+        ]
+      }
+    ],
+    "handle": "127833-verite-la-muse",
+    "order_data": {
+      "id": 5038096416985,
+      "cancelled_at": null,
+      "checkout_token": "15d2d50ff6f28143adcd637115bb6627",
+      "closed_at": null,
+      "created_at": "2022-12-26T00:31:48-06:00",
+      "currency": "INR",
+      "discount_codes": [
+        
+      ],
+      "name": "#1148",
+      "note": null,
+      "note_attributes": [
+        
+      ],
+      "order_number": 1148,
+      "order_status_url": "https://crawlapps-trainee.myshopify.com/62838800601/orders/d8a93cf438a33c01ca6e6f8d383f7ee2/authenticate?key=ac4c586b20f35b40024c25173b744743",
+      "payment_gateway_names": [
+        "bogus"
+      ],
+      "subtotal_price": "7.99",
+      "tags": "",
+      "total_discounts": "0.00",
+      "total_price": "9.43",
+      "total_tax": "1.44",
+      "updated_at": "2022-12-26T00:31:50-06:00",
+      "billing_address": {
+        "first_name": "janvi",
+        "address1": "61 Chhaprabhatha Road Kartik Nagar Amroli",
+        "phone": null,
+        "city": "Surat",
+        "zip": "394107",
+        "province": "Gujarat",
+        "country": "India",
+        "last_name": "anghan",
+        "address2": null,
+        "company": null,
+        "latitude": 21.2542061,
+        "longitude": 72.8396279,
+        "name": "janvi anghan",
+        "country_code": "IN",
+        "province_code": "GJ"
+      },
+      "customer": {
+        "id": 6466315583705,
+        "email": "janvia.crawlapps@gmail.com",
+        "accepts_marketing": false,
+        "created_at": "2022-09-26T22:43:33-05:00",
+        "updated_at": "2022-12-22T03:33:43-06:00",
+        "first_name": "test",
+        "last_name": "test",
+        "orders_count": 6,
+        "state": "disabled",
+        "total_spent": "1298.55",
+        "last_order_id": 4980198703321,
+        "note": "Birthday : 05/25/2000;",
+        "verified_email": true,
+        "multipass_identifier": null,
+        "tax_exempt": false,
+        "tags": "",
+        "last_order_name": "#1024",
+        "currency": "INR",
+        "phone": "+919090909090",
+        "accepts_marketing_updated_at": "2022-11-14T23:32:36-06:00",
+        "marketing_opt_in_level": null,
+        "tax_exemptions": [
+          
+        ],
+        "email_marketing_consent": {
+          "state": "not_subscribed",
+          "opt_in_level": "single_opt_in",
+          "consent_updated_at": null
+        },
+        "sms_marketing_consent": {
+          "state": "not_subscribed",
+          "opt_in_level": "single_opt_in",
+          "consent_updated_at": null,
+          "consent_collected_from": "OTHER"
+        },
+        "admin_graphql_api_id": "gid://shopify/Customer/6466315583705",
+        "default_address": {
+          "id": 8138026615001,
+          "customer_id": 6466315583705,
+          "first_name": "janvi",
+          "last_name": "anghan",
+          "company": null,
+          "address1": "61 Chhaprabhatha Road Kartik Nagar Amroli",
+          "address2": null,
+          "city": "Surat",
+          "province": "Gujarat",
+          "country": "India",
+          "zip": "394107",
+          "phone": null,
+          "name": "janvi anghan",
+          "province_code": "GJ",
+          "country_code": "IN",
+          "country_name": "India",
+          "default": true
+        }
+      },
+      "discount_applications": [
+        
+      ],
+      "line_items": [
+        {
+          "id": 12699133903065,
+          "admin_graphql_api_id": "gid://shopify/LineItem/12699133903065",
+          "fulfillable_quantity": 0,
+          "fulfillment_service": "manual",
+          "fulfillment_status": null,
+          "gift_card": false,
+          "grams": 1588,
+          "name": "Alfredo Roca Malbec Merlot - 750ml",
+          "origin_location": {
+            "id": 3570649759961,
+            "country_code": "IN",
+            "province_code": "GJ",
+            "name": "7TH FL. 706, R.J.D Business Hub Wing-A Naginawadi",
+            "address1": "7TH FL. 706, R.J.D Business Hub Wing-A Naginawadi",
+            "address2": "",
+            "city": "SURAT",
+            "zip": "395004"
+          },
+          "price": "7.99",
+          "price_set": {
+            "shop_money": {
+              "amount": "7.99",
+              "currency_code": "INR"
+            },
+            "presentment_money": {
+              "amount": "7.99",
+              "currency_code": "INR"
+            }
+          },
+          "product_exists": true,
+          "product_id": 8003070492889,
+          "properties": [
+            
+          ],
+          "quantity": 1,
+          "requires_shipping": true,
+          "sku": "",
+          "taxable": true,
+          "title": "Alfredo Roca Malbec Merlot",
+          "total_discount": "0.00",
+          "total_discount_set": {
+            "shop_money": {
+              "amount": "0.00",
+              "currency_code": "INR"
+            },
+            "presentment_money": {
+              "amount": "0.00",
+              "currency_code": "INR"
+            }
+          },
+          "variant_id": 43565944897753,
+          "variant_inventory_management": null,
+          "variant_title": "750ml",
+          "vendor": "cellar",
+          "tax_lines": [
+            {
+              "channel_liable": false,
+              "price": "1.44",
+              "price_set": {
+                "shop_money": {
+                  "amount": "1.44",
+                  "currency_code": "INR"
+                },
+                "presentment_money": {
+                  "amount": "1.44",
+                  "currency_code": "INR"
+                }
+              },
+              "rate": 0.18,
+              "title": "IGST"
+            }
+          ],
+          "duties": [
+            
+          ],
+          "discount_allocations": [
+            
+          ]
+        }
+      ],
+      "refunds": [
+        
+      ],
+      "customer_id": 6466315583705,
+      "order_id": 5038096416985,
+      "line_items_ids": "12699133903065",
+      "products_data": {
+        "Product variant name 1": "750ml",
+        "Product variant type 1": "Regular Product",
+        "Product variant stock 1": -20
+      }
+    },
+    "triggers_text": " All orders",
+    "order_status_url": "https://crawlapps-trainee.myshopify.com/62838800601/orders/d8a93cf438a33c01ca6e6f8d383f7ee2/authenticate?key=ac4c586b20f35b40024c25173b744743",
+    "fallback_page_id": 444034
+  },
+  "line_items": [
+    12699133903065
+  ],
+  "order_data": {
+    "id": 5038096416985,
+    "note_attributes": [
+      
+    ],
+    "note": null,
+    "name": "#1148",
+    "tags": "",
+    "order_status_url": "https://crawlapps-trainee.myshopify.com/62838800601/orders/d8a93cf438a33c01ca6e6f8d383f7ee2/authenticate?key=ac4c586b20f35b40024c25173b744743"
+  }
+}

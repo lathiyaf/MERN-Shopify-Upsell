@@ -1,0 +1,2 @@
+export const SECTION_DETAILS = "SECTION_DETAILS";
+export const SECTION_DELETE = "SECTION_DELETE";
